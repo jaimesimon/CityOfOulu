@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cityofoulu.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_culture"
+        android:name="com.example.cityofoulu.ui.culture.CultureFragment"
+        android:label="Culture"
+        tools:layout="@layout/culture_fragment" />
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.cityofoulu.ui.sports.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/sports_fragment" />
+    <fragment
+        android:id="@+id/nav_nature"
+        android:name="com.example.cityofoulu.ui.nature.NatureFragment"
+        android:label="Nature"
+        tools:layout="@layout/nature_fragment" />
+    <fragment
+        android:id="@+id/nav_public_transport"
+        android:name="com.example.cityofoulu.ui.publictransport.PublicTransportFragment"
+        android:label="Public Transport"
+        tools:layout="@layout/public_transport_fragment" />
+    <fragment
+        android:id="@+id/nav_hotels"
+        android:name="com.example.cityofoulu.ui.hotels.HotelsFragment"
+        android:label="Hotels"
+        tools:layout="@layout/hotels_fragment" />
+    <fragment
+        android:id="@+id/nav_tourist_attractions"
+        android:name="com.example.cityofoulu.ui.touristattractions.TouristAttractionsFragment"
+        android:label="Tourist attractions"
+        tools:layout="@layout/tourist_attractions_fragment" />
+
+</navigation>

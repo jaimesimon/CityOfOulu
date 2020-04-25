@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cityofoulu">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BotanicalGarden" />
+        <activity android:name=".Castle" />
+        <activity android:name=".Cathedral" />
+        <activity android:name=".Police_man" />
+        <activity android:name=".Market" />
+        <activity android:name=".TouristAttractions" />
+        <activity android:name=".Hotel3" />
+        <activity android:name=".Hotel2" />
+        <activity android:name=".hotel1" />
+        <activity android:name=".Hotels" />
+        <activity android:name=".Airport" />
+        <activity android:name=".BusStation" />
+        <activity android:name=".TrainStation" />
+        <activity android:name=".PublicTransport" />
+        <activity android:name=".Pikisaari" />
+        <activity android:name=".Beach" />
+        <activity android:name=".Hupisaaret" />
+        <activity android:name=".Nature" />
+        <activity android:name=".Footbal" />
+        <activity android:name=".IceHockey" />
+        <activity android:name=".Sports" />
+        <activity android:name=".art_museum" />
+        <activity android:name=".UniversityOfOulu" />
+        <activity android:name=".ScienceMuseum" />
+        <activity android:name=".Culture" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAKizBmJgRAOotvbrBLu0pgfb64_D4DdGs" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

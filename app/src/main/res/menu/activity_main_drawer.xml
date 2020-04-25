@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_culture"
+            android:icon="@drawable/ic_museum"
+            android:title="Culture" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_nature"
+            android:icon="@drawable/ic_nature"
+            android:title="Nature" />
+        <item
+            android:id="@+id/nav_public_transport"
+            android:icon="@drawable/ic_transportation"
+            android:title="Public Transport" />
+
+        <item
+            android:id="@+id/nav_hotels"
+            android:icon="@drawable/ic_hotel"
+            android:title="Hotels" />
+        <item
+            android:id="@+id/nav_tourist_attractions"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Tourist attractions" />
+
+    </group>
+
+
+
+</menu>
